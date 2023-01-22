@@ -24,11 +24,29 @@ Requirements
 
 Installation
 ============
+<pre>
+C:\Users\kiril\Documents\LenovoData\urlinfolib>python setup.py install
 
-To install, simply do::
+/// long output of installation goes here...
 
-    python setup.py install
+C:\Users\kiril\Documents\LenovoData\urlinfolib>ls -l
+total 68
+-rw-rw-rw-   1 user     group         265 Jan 22 21:46 CHANGES.md
+-rw-rw-rw-   1 user     group       35149 Jan 19 23:28 LICENSE
+-rw-rw-rw-   1 user     group          99 Jan 19 23:52 MANIFEST.in
+-rw-rw-rw-   1 user     group        5562 Jan 22 22:04 README.md
+drwxrwxrwx   1 user     group           0 Jan 22 22:10 build
+drwxrwxrwx   1 user     group           0 Jan 22 22:10 dist
+-rw-rw-rw-   1 user     group         281 Jan 19 23:47 requirements.txt
+-rw-rw-rw-   1 user     group        1618 Jan 22 22:07 setup.py
+drwxrwxrwx   1 user     group           0 Jan 22 22:08 tests
+-rw-rw-rw-   1 user     group       22087 Jan 22 21:42 url_info.log
+drwxrwxrwx   1 user     group           0 Jan 22 22:08 urlinfo
+drwxrwxrwx   1 user     group           0 Jan 22 22:10 urlinfo.egg-info
+drwxrwxrwx   1 user     group           0 Jan 22 22:08 venv
 
+C:\Users\kiril\Documents\LenovoData\urlinfolib>
+</pre>
 Usage
 =====
 

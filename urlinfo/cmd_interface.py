@@ -75,6 +75,7 @@ class CMDInterface:
 
     def scan(self) -> None:
         try:
+            self.log.info("Start scan() STDIN")
             cli_arg = argv[1]
             if cli_arg == 'web':
                 self.runWeb()
@@ -87,4 +88,4 @@ class CMDInterface:
             print(CMDOPTS())
             exit(1)
         finally:
-            self.log.info("CMDInterface instance destroyed")
+            self.log.info("Finish scan() STDIN")

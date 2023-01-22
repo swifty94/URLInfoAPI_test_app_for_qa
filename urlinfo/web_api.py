@@ -38,12 +38,11 @@ def checkPage():
             url = str(request.args['info'])
             if len(url) > 0:
                 dns = DNSInfo(url).get()
-                http = HTTPHeader(url).get()
-                result = {
+                http = HTTPHeader(url).get()                
+                return jsonify({
                     "DNS information": dns,
                     "HTTP header details": http
-                }
-                return jsonify(result)
+                })
             else:
                 return jsonify({
                     "Response": "Error. URL cannot be > 0 length"

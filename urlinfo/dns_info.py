@@ -60,3 +60,5 @@ class DNSInfo(object):
             return result        
         except Exception as e:
             self.logger.error(e, exc_info=2)
+        finally:
+            self.logger.info('Finished processing URL: ' + self.url)
