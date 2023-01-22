@@ -125,9 +125,9 @@ C:\Users\admin\Desktop\UrlInfoAPI>python urlinfo web
 
 Then open and your browser and do something like below 
 
-![](https://raw.githubusercontent.com/swifty94/FTStats/master/urlinfo/sample_1.png)
+![](https://github.com/swifty94/URLInfoAPI_test_app_for_qa/blob/master/urlinfo/sample_1.png)
 
-![](https://raw.githubusercontent.com/swifty94/FTStats/master/urlinfo/sample_2.png)
+![](https://github.com/swifty94/URLInfoAPI_test_app_for_qa/blob/master/urlinfo/sample_2.png)
 
 Once you done, just do "CTRL+C" in you terminal and you'll see something like below:
 
