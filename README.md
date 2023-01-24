@@ -25,7 +25,7 @@ Requirements
 Installation
 ============
 <pre>
-C:\Users\kiril\Documents\LenovoData\urlinfolib>python setup.py install
+C:\Users\kiril\Documents\LenovoData\urlinfolib>pip install -r requirements.txt
 
 /// long output of installation goes here...
 
